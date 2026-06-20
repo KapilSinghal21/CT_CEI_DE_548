@@ -46,3 +46,7 @@ spark-assignment/
 - `Order Date` / `Ship Date` mix two date formats in the same column; parsed safely using `try_to_date` + `coalesce`.
 - West region leads in total sales; Central region has the lowest average profit per order.
 - Technology, Office Supplies, and Furniture each exceed $200K in total sales.
+
+## 👨‍💻 Author
+Kapil Singhal  
+Data Engineering Intern @ Celebal Technologies
