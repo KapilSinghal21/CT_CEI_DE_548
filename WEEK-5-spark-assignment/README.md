@@ -1,4 +1,4 @@
-# Spark Assignment — Week 5 (Data Engineering 003)
+# Spark Assignment — Week 5
 
 ## Objective
 Understand Spark fundamentals and perform data cleaning, transformation, and aggregation using DataFrames, using the Sample Superstore dataset (9,994 retail order records).
@@ -12,6 +12,8 @@ spark-assignment/
 │   └── spark_basics.ipynb   # Full PySpark pipeline with explanations + output
 │── output/
 │   └── results.csv          # Output of the final pipeline (Step 10)
+|   
+|── Spark_Questions_Answers.md
 │── README.md
 ```
 
