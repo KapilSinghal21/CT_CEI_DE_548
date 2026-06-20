@@ -194,3 +194,9 @@ pipeline_result.show()
 ```
 
 This just runs the three steps in order — dedup first, then fill the nulls so they don't accidentally get skipped during the sum, then group and add up the revenue per store. Ran a version of this on the Superstore data (grouping by State, summing Sales instead of store_id/price) and it worked end to end without issues.
+
+---
+
+-- Kapil Singhal 
+-- Data Engineering Intern
+
