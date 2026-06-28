@@ -19,3 +19,12 @@ venv/
 # OS files
 Thumbs.db
 .DS_Store
+
+# Spark 
+output/
+data/input_parquet/
+__pycache__/
+*.pyc
+.DS_Store
+*.crc
+_SUCCESS
