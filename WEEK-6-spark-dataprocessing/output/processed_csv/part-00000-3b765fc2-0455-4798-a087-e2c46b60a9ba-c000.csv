@@ -1,0 +1,9 @@
+product_id,old_name,category,price,base_price,status,amount,user_id,region,priority,final_price
+P001,Laptop,Electronics,55000,46610,Completed,55000,U001,North,High,54999.8
+P002,Mouse,Electronics,500,423,Pending,500,U002,South,Low,499.14
+P003,Notebook,Stationery,50,42,Completed,1200,U003,North,Low,49.56
+P005,Pen,Stationery,10,8,Cancelled,10,U005,West,Low,9.44
+P006,Keyboard,Electronics,1500,1271,Completed,1500,U006,North,High,1499.78
+P007,Chair,Furniture,3500,2966,Pending,3500,U007,South,Medium,3499.88
+P008,Desk,Furniture,7000,5932,Completed,7000,U008,East,High,6999.76
+P009,Tablet,Electronics,18000,15254,Completed,18000,U009,North,Medium,17999.72
