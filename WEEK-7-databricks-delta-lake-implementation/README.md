@@ -65,6 +65,7 @@ delta_master.alias("t")
 - PySpark + Delta Lake (built-in)
 - Unity Catalog Volume for file storage
 
-## Author
-Kapil Singhal <hr>
-Data Engineering Intern
+## 👨‍💻 Author
+
+Kapil Singhal  
+Data Engineering Intern @ Celebal Technologies
