@@ -1,0 +1,17 @@
+=======================================================
+  MONTHLY REPORT: 2025-01-01 to 2025-01-31
+=======================================================
+Total Orders     : 54
+Total Revenue    : 110199.06
+Unique Customers : 51
+
+Top 3 Products:
+  - Chair Model 1: 6570.57
+  - Speaker Model 19: 5260.49
+  - Lamp Model 9: 4385.92
+
+Comparison with previous period:
+  Orders change: -3.57%
+  Revenue change: -13.69%
+  Customers change: -1.92%
+=======================================================

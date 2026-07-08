@@ -1,0 +1,7 @@
+=== DATA CLEANING REPORT ===
+[orders] 59 rows had missing customer_id -> set to NULL (kept as NaN)
+[orders] 102 rows had DD-MM-YYYY date format -> normalized to YYYY-MM-DD HH:MM:SS
+[products] 45 rows had messy product_name (extra spaces/mixed case) -> normalized
+[order_items] 99 rows have negative quantity (treated as returns, kept)
+[customers] 5 customer_ids have invalid emails: [122, 198, 251, 407, 446]
+[order_items] No orphan order_items found (referential integrity OK)

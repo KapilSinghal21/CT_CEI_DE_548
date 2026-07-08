@@ -1,0 +1,121 @@
+product_id,product_name,category,subcategory,cost_price
+1,Smartwatch Model 5,Electronics,Electronics - Smartwatch,638.77
+2,Laptop Model 18,Electronics,Electronics - Laptop,626.62
+3,Headphones Model 16,Electronics,Electronics - Headphones,730.58
+4,Tablet Model 11,Electronics,Electronics - Tablet,258.51
+5,Laptop Model 1,Electronics,Electronics - Laptop,51.58
+6,Smartwatch Model 17,Electronics,Electronics - Smartwatch,190.05
+7,Laptop Model 4,Electronics,Electronics - Laptop,196.72
+8,Tablet Model 2,Electronics,Electronics - Tablet,462.68
+9,Camera Model 13,Electronics,Electronics - Camera,676.95
+10,Laptop Model 8,Electronics,Electronics - Laptop,559.61
+11,Tablet Model 1,Electronics,Electronics - Tablet,456.28
+12,Laptop Model 19,Electronics,Electronics - Laptop,649.27
+13,Smartwatch Model 18,Electronics,Electronics - Smartwatch,76.75
+14,Laptop Model 20,Electronics,Electronics - Laptop,423.53
+15,Smartphone Model 11,Electronics,Electronics - Smartphone,108.74
+16,Speaker Model 6,Electronics,Electronics - Speaker,262.25
+17,Smartphone Model 5,Electronics,Electronics - Smartphone,620.62
+18,Camera Model 17,Electronics,Electronics - Camera,302.0
+19,Speaker Model 13,Electronics,Electronics - Speaker,261.47
+20,Laptop Model 14,Electronics,Electronics - Laptop,521.1
+21,Laptop Model 18,Electronics,Electronics - Laptop,630.66
+22,Laptop Model 19,Electronics,Electronics - Laptop,588.53
+23,Headphones Model 5,Electronics,Electronics - Headphones,6.43
+24,Speaker Model 19,Electronics,Electronics - Speaker,772.32
+25,Smartphone Model 6,Electronics,Electronics - Smartphone,774.19
+26,Laptop Model 19,Electronics,Electronics - Laptop,399.47
+27,Headphones Model 3,Electronics,Electronics - Headphones,785.99
+28,Laptop Model 3,Electronics,Electronics - Laptop,584.78
+29,Headphones Model 15,Electronics,Electronics - Headphones,171.7
+30,Speaker Model 3,Electronics,Electronics - Speaker,577.73
+31,T-Shirt Model 13,Clothing,Clothing - T-Shirt,137.24
+32,Dress Model 16,Clothing,Clothing - Dress,303.4
+33,Cap Model 16,Clothing,Clothing - Cap,607.8
+34,Jeans Model 6,Clothing,Clothing - Jeans,31.56
+35,T-Shirt Model 11,Clothing,Clothing - T-Shirt,276.74
+36,Dress Model 6,Clothing,Clothing - Dress,719.01
+37,T-Shirt Model 11,Clothing,Clothing - T-Shirt,388.78
+38,T-Shirt Model 14,Clothing,Clothing - T-Shirt,712.35
+39,Jeans Model 2,Clothing,Clothing - Jeans,168.41
+40,Jeans Model 14,Clothing,Clothing - Jeans,585.33
+41,Jacket Model 10,Clothing,Clothing - Jacket,317.36
+42,Sweater Model 16,Clothing,Clothing - Sweater,291.86
+43,Dress Model 3,Clothing,Clothing - Dress,482.17
+44,Jeans Model 4,Clothing,Clothing - Jeans,140.81
+45,Jacket Model 3,Clothing,Clothing - Jacket,628.98
+46,Dress Model 16,Clothing,Clothing - Dress,515.28
+47,Dress Model 6,Clothing,Clothing - Dress,153.33
+48,T-Shirt Model 9,Clothing,Clothing - T-Shirt,670.48
+49,Sweater Model 2,Clothing,Clothing - Sweater,558.69
+50,T-Shirt Model 3,Clothing,Clothing - T-Shirt,334.12
+51,Cap Model 19,Clothing,Clothing - Cap,53.48
+52,Dress Model 17,Clothing,Clothing - Dress,694.18
+53,Dress Model 19,Clothing,Clothing - Dress,67.77
+54,Cap Model 2,Clothing,Clothing - Cap,641.36
+55,Shoes Model 20,Clothing,Clothing - Shoes,759.66
+56,Dress Model 6,Clothing,Clothing - Dress,173.45
+57,Jeans Model 5,Clothing,Clothing - Jeans,67.3
+58,Shoes Model 14,Clothing,Clothing - Shoes,658.94
+59,Jeans Model 20,Clothing,Clothing - Jeans,731.77
+60,T-Shirt Model 3,Clothing,Clothing - T-Shirt,264.27
+61,Lamp Model 17,Home,Home - Lamp,630.31
+62,Bedsheet Model 19,Home,Home - Bedsheet,334.48
+63,Vacuum Cleaner Model 19,Home,Home - Vacuum Cleaner,752.02
+64,Blender Model 19,Home,Home - Blender,694.64
+65,Lamp Model 14,Home,Home - Lamp,459.76
+66,Cookware Set Model 2,Home,Home - Cookware Set,325.36
+67,Bedsheet Model 20,Home,Home - Bedsheet,319.66
+68,Lamp Model 8,Home,Home - Lamp,382.8
+69,Lamp Model 12,Home,Home - Lamp,654.82
+70,Lamp Model 10,Home,Home - Lamp,558.47
+71,Blender Model 8,Home,Home - Blender,779.5
+72,Cookware Set Model 11,Home,Home - Cookware Set,518.22
+73,Vacuum Cleaner Model 15,Home,Home - Vacuum Cleaner,660.06
+74,Curtains Model 16,Home,Home - Curtains,657.71
+75,Bedsheet Model 6,Home,Home - Bedsheet,569.11
+76,Cookware Set Model 5,Home,Home - Cookware Set,457.09
+77,Vacuum Cleaner Model 7,Home,Home - Vacuum Cleaner,50.81
+78,Blender Model 15,Home,Home - Blender,291.5
+79,Vacuum Cleaner Model 9,Home,Home - Vacuum Cleaner,320.57
+80,Blender Model 1,Home,Home - Blender,393.59
+81,Cookware Set Model 6,Home,Home - Cookware Set,443.31
+82,Lamp Model 6,Home,Home - Lamp,665.54
+83,Blender Model 10,Home,Home - Blender,44.47
+84,Chair Model 19,Home,Home - Chair,180.97
+85,Vacuum Cleaner Model 7,Home,Home - Vacuum Cleaner,20.94
+86,Chair Model 1,Home,Home - Chair,142.69
+87,Chair Model 1,Home,Home - Chair,488.63
+88,Lamp Model 9,Home,Home - Lamp,282.22
+89,Lamp Model 7,Home,Home - Lamp,660.33
+90,Cookware Set Model 19,Home,Home - Cookware Set,411.65
+91,Textbook Model 12,Books,Books - Textbook,229.73
+92,Textbook Model 4,Books,Books - Textbook,224.8
+93,Biography Model 9,Books,Books - Biography,714.44
+94,Biography Model 7,Books,Books - Biography,613.55
+95,Novel Model 20,Books,Books - Novel,116.24
+96,Novel Model 16,Books,Books - Novel,337.76
+97,Self-Help Book Model 2,Books,Books - Self-Help Book,653.73
+98,Biography Model 8,Books,Books - Biography,383.21
+99,Textbook Model 12,Books,Books - Textbook,673.31
+100,Comic Model 6,Books,Books - Comic,594.03
+101,Textbook Model 18,Books,Books - Textbook,545.37
+102,Biography Model 3,Books,Books - Biography,182.55
+103,Journal Model 10,Books,Books - Journal,300.49
+104,Comic Model 10,Books,Books - Comic,47.67
+105,Textbook Model 19,Books,Books - Textbook,380.41
+106,Cookbook Model 17,Books,Books - Cookbook,546.15
+107,Comic Model 10,Books,Books - Comic,124.87
+108,Cookbook Model 11,Books,Books - Cookbook,725.76
+109,Self-Help Book Model 5,Books,Books - Self-Help Book,624.26
+110,Self-Help Book Model 11,Books,Books - Self-Help Book,509.43
+111,Novel Model 15,Books,Books - Novel,139.04
+112,Journal Model 6,Books,Books - Journal,74.99
+113,Comic Model 14,Books,Books - Comic,772.44
+114,Self-Help Book Model 1,Books,Books - Self-Help Book,163.53
+115,Biography Model 1,Books,Books - Biography,427.17
+116,Novel Model 1,Books,Books - Novel,556.35
+117,Biography Model 10,Books,Books - Biography,309.92
+118,Comic Model 10,Books,Books - Comic,659.96
+119,Biography Model 10,Books,Books - Biography,421.67
+120,Self-Help Book Model 5,Books,Books - Self-Help Book,290.6
