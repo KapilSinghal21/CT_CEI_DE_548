@@ -1,0 +1,75 @@
+{
+  "name": "DataFlow_Medallion_Orchestration",
+  "properties": {
+    "activities": [
+      {
+        "name": "Bronze_Ingest",
+        "type": "DatabricksNotebook",
+        "typeProperties": {
+          "notebookPath": "/DataFlow_Inc_Medallion/01_bronze_ingest"
+        },
+        "linkedServiceName": {
+          "referenceName": "AzureDatabricks_LinkedService",
+          "type": "LinkedServiceReference"
+        }
+      },
+      {
+        "name": "Silver_Clean",
+        "type": "DatabricksNotebook",
+        "dependsOn": [
+          { "activity": "Bronze_Ingest", "dependencyConditions": ["Succeeded"] }
+        ],
+        "typeProperties": {
+          "notebookPath": "/DataFlow_Inc_Medallion/02_silver_clean"
+        },
+        "linkedServiceName": {
+          "referenceName": "AzureDatabricks_LinkedService",
+          "type": "LinkedServiceReference"
+        }
+      },
+      {
+        "name": "Gold_Aggregate",
+        "type": "DatabricksNotebook",
+        "dependsOn": [
+          { "activity": "Silver_Clean", "dependencyConditions": ["Succeeded"] }
+        ],
+        "typeProperties": {
+          "notebookPath": "/DataFlow_Inc_Medallion/03_gold_aggregate"
+        },
+        "linkedServiceName": {
+          "referenceName": "AzureDatabricks_LinkedService",
+          "type": "LinkedServiceReference"
+        }
+      },
+      {
+        "name": "SCD2_Merge",
+        "type": "DatabricksNotebook",
+        "dependsOn": [
+          { "activity": "Gold_Aggregate", "dependencyConditions": ["Succeeded"] }
+        ],
+        "typeProperties": {
+          "notebookPath": "/DataFlow_Inc_Medallion/04_scd2_merge"
+        },
+        "linkedServiceName": {
+          "referenceName": "AzureDatabricks_LinkedService",
+          "type": "LinkedServiceReference"
+        }
+      },
+      {
+        "name": "Schema_Drift_Check",
+        "type": "DatabricksNotebook",
+        "dependsOn": [
+          { "activity": "SCD2_Merge", "dependencyConditions": ["Succeeded"] }
+        ],
+        "typeProperties": {
+          "notebookPath": "/DataFlow_Inc_Medallion/05_schema_drift_check"
+        },
+        "linkedServiceName": {
+          "referenceName": "AzureDatabricks_LinkedService",
+          "type": "LinkedServiceReference"
+        }
+      }
+    ],
+    "annotations": ["Medallion", "Bronze-Silver-Gold", "DataFlow Inc"]
+  }
+}
