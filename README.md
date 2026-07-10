@@ -5,7 +5,7 @@ Data Engineering track (Celebal Excellence Internship) and a major project. Work
 ## Weekly Breakdown
 
 | Week | Topic | Key Deliverable |
-|------|---|---|
+|-----------------|---|---|
 | [1](WEEK-1) | Data Cleaning (Pandas) | Cleaned e-commerce dataset, notebook |
 | [2](WEEK-2) | SQL Fundamentals & Schema Design | Normalized DB, indexing, transactions |
 | [3](WEEK-3-advanced-sql-queries) | Advanced SQL | Subqueries, CTEs, window functions on Superstore data |
@@ -51,5 +51,5 @@ Each folder has its own README with setup instructions, findings, and screenshot
 
 ## Author
 
-Kapil Singhal
+Kapil Singhal <br>
 Data Engineering Intern @ Celebal Technologies
