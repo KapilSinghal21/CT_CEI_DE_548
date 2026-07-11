@@ -44,6 +44,7 @@ dataflow-medallion/
 │   └── adf_setup.md              # ADF orchestration design & setup guide
 ├── adf_pipeline.json             # ADF pipeline definition (5 chained notebook activities)
 ├── screenshots/                  # Databricks screenshots of each layer
+├── MajorProject_Report.pdf       # Internship Report
 └── README.md
 ```
 
@@ -63,7 +64,7 @@ See [docs/setup.md](docs/setup.md) for Databricks setup and run order, and [docs
 
 ## Known limitation
 
-The ADF pipeline was fully designed and configured, but Databricks Free Edition doesn't expose a persistent cluster for ADF's Databricks Notebook activity to target, and free-tier Azure subscriptions don't provide compute quota for ADF-managed job clusters. As a result, live end-to-end orchestration couldn't be executed. The pipeline logic, linked service configuration, and dependency chaining shown in `adf_pipeline.json` and `docs/adf_setup.md` reflect exactly what would run unchanged on a standard (non-free) Azure Databricks workspace with Jobs/Workflows enabled. All 5 stages were validated by running the notebooks directly in Databricks.
+The ADF pipeline was fully designed, but Databricks Free Edition doesn't expose a persistent cluster for ADF's Databricks Notebook activity to target, and free-tier Azure subscriptions don't provide compute quota for ADF-managed job clusters. As a result, live end-to-end orchestration couldn't be executed. The pipeline logic, linked service configuration, and dependency chaining shown in `adf_pipeline.json` and `docs/adf_setup.md` reflect exactly what would run unchanged on a standard (non-free) Azure Databricks workspace with Jobs/Workflows enabled. All 5 stages were validated by running the notebooks directly in Databricks.
 
 ## Tech stack
 
