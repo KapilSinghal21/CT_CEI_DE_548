@@ -21,7 +21,7 @@ Data scattered across raw CSV/JSON files, no central analytics layer, no schema 
 | **Gold** | Business aggregates (sales, delivery, RFM, seller performance) | PySpark |
 | **SCD2** | Dimension history tracking (customers, products) | Delta MERGE |
 | **Schema drift** | Detects new/missing/changed columns between runs | PySpark + JSON snapshots |
-| **SQL analytics** | Window functions, CTEs, joins on Silver tables | Spark SQL |
+| **SQL analytics** | Window functions, CTEs, joins, RFM segmentation | Spark SQL |
 | **Orchestration** | Sequenced execution with dependency/failure handling | Azure Data Factory (design documented, see limitation below) |
 
 ## Repository structure
@@ -33,9 +33,10 @@ dataflow-medallion/
 │   ├── 02_silver_clean.py        # Cleaning, dedup, type fixes, joins
 │   ├── 03_gold_aggregate.py      # Business aggregate tables
 │   ├── 04_scd2_merge.py          # SCD Type 2 history tracking
-│   └── 05_schema_drift_check.py  # Schema change detection
-├── sql/
+│   ├── 05_schema_drift_check.py  # Schema change detection
 │   └── 06_sql_analytics.sql      # Window functions, CTEs, RFM segmentation
+├── output/
+│   └── sql_analytics_result.csv  # Exported result of the SQL analytics query (customer RFM segmentation) — the direct answer to the problem statement's "reliable analytics" requirement
 ├── diagrams/
 │   └── architecture.png          # Pipeline architecture diagram
 ├── docs/
@@ -53,7 +54,7 @@ dataflow-medallion/
 - **Gold layer**: sales by category, revenue by state, seller performance, customer RFM segmentation
 - **SCD Type 2**: `effective_date`, `end_date`, `is_current` columns track dimension changes over time via Delta `MERGE INTO`
 - **Schema drift detection**: compares current Bronze schema against last recorded snapshot, flags new/missing/type-changed columns
-- **SQL analytics**: `RANK()`, `LAG()`, `ROW_NUMBER() OVER (PARTITION BY ...)`, CTEs, `CASE`-based customer segmentation (Loyal / Recent / At Risk / Churned)
+- **SQL analytics**: `RANK()`, `LAG()`, `ROW_NUMBER() OVER (PARTITION BY ...)`, CTEs, `CASE`-based customer segmentation (Loyal / Recent / At Risk / Churned) — exported result available in `output/`
 - **Orchestration**: designed an ADF pipeline (`adf_pipeline.json`) chaining all 5 stages with success-dependency conditions, enforcing correct execution order automatically
 
 ## Setup
@@ -71,4 +72,4 @@ Python · Pandas · SQL · PySpark · Delta Lake · Databricks · Azure Data Fac
 ## 👨‍💻 Author
 
 Kapil Singhal <br>
-Data Engineer
+Data Engineering Intern @Celebal Technologies
