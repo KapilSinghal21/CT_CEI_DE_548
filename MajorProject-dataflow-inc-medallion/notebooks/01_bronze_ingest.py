@@ -1,6 +1,5 @@
 """
 Bronze Layer
-Adjust RAW_DIR to your DBFS/mount path.
 """
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import current_timestamp, lit
